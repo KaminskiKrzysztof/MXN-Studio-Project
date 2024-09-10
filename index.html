@@ -24,11 +24,11 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 
-	<body>
-		<nav class="navbar navbar-expand-lg bg-light py-4 fixed-top">
+	<body data-bs-spy="scroll" data-bs-target="#navbar-scrolling"> 
+		<nav class="navbar navbar-expand-lg bg-light py-4 fixed-top" id="navbar-scrolling">
 			<div class="container">
 				<a class="navbar-brand" href="#"
-					><i class="bi bi-camera-reels orange-color"></i>MXN Studio</a
+					><i class="bi bi-camera-reels black-color"></i>MXN Studio</a
 				>
 				<button
 					class="navbar-toggler"
@@ -118,16 +118,150 @@
 									Pariatur, enim!
 								</p>
 							</div>
-						</div>
-					
+						</div>				
 				</div>
-			</section>
-		</main>
+
+
+<div class="container py-5">
+	<p class="display-3 text-uppercase black-color text-center mb-4">What is special about us?</p>
+	<div class="accordion py-5" id="accordionExample">
+		<div class="accordion-item">
+		  <h2 class="accordion-header">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			 The best product quality
+			</button>
+		  </h2>
+		  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quibusdam quidem, rem soluta dolorem veniam incidunt blanditiis consectetur impedit debitis doloremque? Quasi esse repudiandae tempore consectetur ratione eius odit dolore.
+			</div>
+		  </div>
+		</div>
+		<div class="accordion-item">
+		  <h2 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				Good customer relationships are the most important
+			</button>
+		  </h2>
+		  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, deleniti totam praesentium blanditiis eum autem enim earum quidem odio veritatis optio modi quibusdam inventore reprehenderit officiis, obcaecati, beatae illum.
+			</div>
+		  </div>
+		</div>
+		<div class="accordion-item">
+		  <h2 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Winners of numerous awards
+			</button>
+		  </h2>
+		  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+			 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt est enim sunt hic, mollitia, cupiditate dolor commodi ducimus dolorum quo ipsum cum earum quaerat vero consequuntur! Labore, nihil pariatur. Quaerat.
+			</div>
+		  </div>
+		</div>
+	  </div>
+</div>
+</section>
+
+<!-- team section -->
+
+<section id="team" class="team py-5">
+	<div class="container py-5 text-center">
+		<p class="display-3 black-color mb-0 text-uppercase">Team</p>
+		<p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit consequatur quisquam commodi sunt autem accusamus, perspiciatis, cupiditate exercitationem nobis repudiandae voluptas non doloribus beatae reiciendis dignissimos? Illo, deleniti in.</p>
+		<div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+			<div class="col">
+			  <div class="card h-100">
+				<img src="./img/zdj cv.png" class="card-img-top" alt="CEO">
+				<div class="card-body">
+				  <h5 class="card-title">CEO</h5>
+				  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit mollitia quasi, neque perspiciatis, minus, quisquam quos fugiat voluptatem nostrum necessitatibus dicta rerum quibusdam? Nam, vitae impedit a odit quisquam inventore!</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="./img/yes.png" class="card-img-top" alt="HR">
+				<div class="card-body">
+				  <h5 class="card-title">HR</h5>
+				  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, enim! Distinctio, fugit quibusdam laudantium qui expedita ut amet exercitationem, dolores, earum iure ducimus. Quaerat, necessitatibus nemo? Accusantium dolores quasi voluptate!p>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="./img/6.png" class="card-img-top" alt="Marketing">
+				<div class="card-body">
+				  <h5 class="card-title">Marketing</h5>
+				  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis a saepe ipsam voluptatibus ea enim molestiae sint ab est deleniti. Cupiditate accusamus tempora itaque vero. Ipsa assumenda unde beatae expedita!</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card h-100">
+				<img src="./img/me_img.jpg" class="card-img-top" alt="Graphic Designer">
+				<div class="card-body">
+				  <h5 class="card-title">Graphic Designer</h5>
+				  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti earum eum excepturi repellat dignissimos delectus neque dolore animi ducimus saepe quo deserunt, tempora minus mollitia, nobis adipisci, accusamus maxime unde!</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+</section>
+
+
+<section id="contact" class="contact bg-dark text-light py-5">
+	<div class="container text-center py-5">
+		<p class="display-3 pb-lg-5 text-uppercase">Get in touch with us</p>
+
+		<div class="row">
+			<div class="col-lg-9 my-5 m-lg-0">
+
+<form>
+	<div class="input-group mb-3">
+		<input type="text" class="form-control" placeholder="Name & Surname">
+		
+	</div>
+	<div class="input-group mb-3">
+		<input type="text" class="form-control" placeholder="E-mail">
+		
+	</div>
+	<div class="input-group mb-3">
+		<textarea rows="6" class="form-control" placeholder="Message"></textarea>
+	</div>
+
+	<input type="submit" value="Send" class="btn btn-light px-4 py-2  submit-btn">
+</form>
+
+
+
+
+			</div>
+			<div class="col-lg-3 mt-4 m-lg-0 contact-info">
+				<h3>Address:</h3>
+				<p class="lgiht-color">MNX Studio</p>
+				<p><i class="bi bi-geo-alt light-color"></i>00 MnX Avenue 00-000 Poland</p>
+				<p><i class="bi bi-phone light-color">+48 000 000 000</i></p>
+				<p><i class="bi bi-at light-color"></i>contact@mail.op</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+</main>
+
+
+<footer class="bg-dark text-light border-top">
+	<p class="text-center py-5 mb-0">&copy; MNX Studio</p>
+</footer>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"></script>
-		<script src="./js/script.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>
