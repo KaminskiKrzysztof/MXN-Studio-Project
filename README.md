@@ -1,1 +1,1 @@
-#MnX-Studio is a project created while attending MMC School course. Using HTML CSS JS and bootstrap
+#MXN-Studio is a project created while attending MMC School course. Using HTML CSS JS and bootstrap
